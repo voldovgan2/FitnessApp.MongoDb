@@ -49,7 +49,7 @@ jobs:
       run: dotnet build FitnessApp.MongoDb.sln -c Release /p:Version=${{ steps.gitversion.outputs.AssemblySemVer }} /p:AssemblyVersion=${{ steps.gitversion.outputs.AssemblySemVer }} /p:InformationalVersion=${{ steps.gitversion.outputs.InformationalVersion }} --no-restore
       
     - name: Pack package
-      run: dotnet pack FitnessApp.MongoDb/MongoDb.Driver.csproj -o:package /p:PackageVersion='${{ steps.gitversion.outputs.SemVer }}' -c Release
+      run: dotnet pack FitnessApp.MongoDb/MongoDB.Driver.csproj -o:package /p:PackageVersion='${{ steps.gitversion.outputs.SemVer }}' -c Release
         
     - name: Prepare package
       run: dotnet nuget add source --username voldovgan2 --password ${{ secrets.NUGET_PACKAGE_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/voldovgan2/index.json"
