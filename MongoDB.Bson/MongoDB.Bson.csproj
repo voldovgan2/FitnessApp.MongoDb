@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard21</TargetFramework>
-    <LangVersion>latest</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyTitle>MongoDB.Bson</AssemblyTitle>
     <Product>MongoDB.Bson</Product>
     <PackageId>MongoDB.Bson</PackageId>
