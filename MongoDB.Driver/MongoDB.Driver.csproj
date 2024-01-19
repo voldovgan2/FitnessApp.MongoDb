@@ -12,8 +12,8 @@
     <Description>Official MongoDB supported driver for MongoDB. See https://www.mongodb.com/docs/drivers/csharp/ for more details.</Description>
     <PackageDescription>Official .NET driver for MongoDB.</PackageDescription>
     <IsPackable>true</IsPackable>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version />
+    <RepositoryUrl>https://github.com/voldovgan2/FitnessApp.MongoDb</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
