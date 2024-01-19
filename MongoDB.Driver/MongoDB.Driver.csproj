@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>netstandard21</TargetFramework>
+    <LangVersion>latest</LangVersion>
     <AssemblyTitle>MongoDB.Driver</AssemblyTitle>
     <Product>MongoDB.Driver</Product>
     <PackageId>FitnessApp.MongoDB.Driver</PackageId>
